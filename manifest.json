@@ -1,0 +1,25 @@
+{
+  "name" : "A A PrivacyPolicyNotifier",
+  "version" : "0.1.0",
+  "description" : "Shows an infobar on pages which are highly possible the privacy policy pages",
+  "background_page" : "background.html",
+  "permissions" : [ "experimental" , "tabs", "http://*/*", "https://*/*" ],
+  "icons" : {
+    "16" : "icon-16.png",
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "content_scripts" : [
+    {
+      "matches" : [ "http://*/*" , "https://*/*" , "file:///*" ],
+      "js" : [ "contentscript.js" ],
+      "run_at" : "document_idle",
+      "all_frames" : false
+    }
+  ],
+    "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "icon-16.png",
+      "popup": "popup.html"
+  }  
+}

@@ -1,0 +1,12 @@
+Privacy Policy Toolkit -- A Chrom Extension
+======================================================================
+
+This software is released under the Apache License v2.0:
+http://www.apache.org/licenses/LICENSE-2.0
+
+See README for other release information.
+
+This project depends on several other open-source projects:
+ - Chromium project (http://www.chromium.org/) -- BSD-style license
+ - Stanford Natural Language Processing (http://nlp.stanford.edu/software) --  GNU General Public License (v2 or later)
+ - jQuery (http://jquery.com/) -- MIT License

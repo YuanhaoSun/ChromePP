@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+ * Copyright (c) 2010 The Chromium Authors. All rights reserved.  Use of this
+ * source code is governed by a BSD-style license that can be found in the
+ * LICENSE file.
+-->
+<html>
+  <head>
+    <style>
+      html {
+        height: 40px;
+      }
+      body {
+<!--        background: #fffddd; -->
+        font: 16px Courier New;
+        height: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-box-pack: center;
+      }
+      em {
+        font-weight: bold;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+	  <em>Notice:</em> This is a <em>Privacy Policy</em> page! Grade: <em id="count2">X</em>, detector sensitive score: <em id="count">X</em>.
+    </div>
+    <script>
+      // Obtain the count of sandwiches from the page URL.
+	  // Solution found in http://stackoverflow.com/questions/824040 
+	  // ...#count?count2
+      var match = window.location.href.match(/^[^#]+#([^?]*)\??(.*)/);
+      var count = match[1];
+      var count2 = match[2];
+	  //Original
+	  //var count = window.location.hash.substring(1);
+	  	  
+      if (count) {
+        // Replace the placeholder text with the actual count.
+        var domcount = document.querySelector('#count');
+        domcount.innerText = count;
+		// Newly added, show the second passing parameter
+		var domcount2 = document.querySelector('#count2');
+        domcount2.innerText = count2;
+      }
+    </script>
+  </body>
+</html>

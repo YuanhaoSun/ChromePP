@@ -1,0 +1,38 @@
+False positive (FP) randomly encountered:
+All google search for "Privacy Policy"
+http://en.wikipedia.org/wiki/Privacy_policy
+
+False positive (FP) from Google search for "Privacy" Top 50 results:
+http://en.wikipedia.org/wiki/Privacy
+http://privacy.org/
+http://epic.org/privacy/
+http://en.wikipedia.org/wiki/Internet_privacy
+
+False positive (FP) from Google search for "Policy" Top 50 results:
+http://www.businessdictionary.com/definition/policy.html (Grade=1)
+http://en.wikipedia.org/wiki/Policy (Grade=)
+
+Potential FP:
+http://www.google.com/intl/en/privacy/
+
+Low detecting score:
+http://gfusa.convio.net/site/PageServer?pagename=privacypolicy
+http://agarthaonline.wordpress.com/2009/08/04/privacy-policy/
+http://www.trihelpdesk.com/privacy.html
+http://www.itt.com/privacy-policy/
+http://www.cardiff.ac.uk/legals/privacy/index.html
+http://www.mgivefoundation.org/privacy.aspx
+http://www.gov.ns.ca/govt/privacy/
+http://walmartcommunity.com/privacy-policy
+http://www.ja.org/about/privacy.shtml
+
+Low grde:
+http://mollom.com/web-service-privacy-policy
+http://www.adamvstheman.com/privacy-policy
+
+Two versions:
+http://cbsiprivacy.custhelp.com/app/answers/detail/a_id/1265/~/cbs-interactive-privacy-policy-highlights
+http://www.pg.com/privacy/english/privacy_notice.html
+
+Showcase:
+http://www.google.com/search?q=privacy+policy&hl=en&safe=off&prmd=imvnsfd&ei=hsCMTtiHEZS0hAfiwITMAw&start=240&sa=N&biw=1920&bih=925
